@@ -18,6 +18,8 @@ This saves time and ensures that everyone follows the same security settings.
 6. Give the GPO a clear and simple name, such as:  
    **“GPO – Security”**.
 
+<img src="https://i.imgur.com/wHesJws.png" height="55%" width="60%"/> 
+
 > 💡 **Tip:** Using descriptive names helps you quickly identify the purpose of each GPO when you have many of them.
 
 ---
@@ -30,6 +32,8 @@ These settings help protect user accounts by requiring strong passwords and prev
 2. Navigate to:
 Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies
 
+<img src="https://i.imgur.com/TJNiPvH.png" height="55%" width="60%"/> 
+
 Here you will configure three important policies:
 
 # Password Policies
@@ -37,13 +41,17 @@ Here you will configure three important policies:
 Defines the minimum number of characters a password must have.  
 ✔ Recommended: **8 characters**.
 
+<img src="https://i.imgur.com/aCj2nbU.png" height="55%" width="60%"/> 
+
 ### 2️⃣ Password must meet complexity requirements  
 Requires passwords to include a combination of:
 - Uppercase letters  
 - Lowercase letters  
 - Numbers  
 - Symbols
-  
+
+<img src="https://i.imgur.com/aoYWDF7.png" height="55%" width="60%"/> 
+
 # Account Lockup Policy
 ### 3️⃣ Account lockout threshold  
 Locks the user account temporarily after several incorrect login attempts.  
@@ -60,5 +68,7 @@ This option determines whether the built-in Administrator account can be locked 
 
 ### 🔹 Reset account lockout counter after  
 This defines how long the system waits (in minutes) before the failed login attempt counter resets back to zero.
+
+<img src="https://i.imgur.com/IZU45rR.png" height="55%" width="60%"/> 
 
 ---
